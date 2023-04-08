@@ -41,9 +41,10 @@ public class Main {
         /**
          * Creacion de velocidades para cada xy, ya que asi hace el efecto de que al chocar se va haciendo pequeña y
          * luego se devuelve a su tamaño inicial
+         * la velocidad la multipique por 0.004 ya que si lo dejaba sin el 0.004 iba muyy rapido
          */
-        double vx = (Math.random() * 0.001);
-        double vy = (Math.random() * 0.001);
+        double vx = (Math.random() * 0.004);
+        double vy = (Math.random() * 0.004);
 
         double v12x = vx;
         double v12y = vy;
@@ -275,5 +276,6 @@ public class Main {
 
 
 /**
- * No supe donde poner subprogramas ya que todas las lineas tenian variables diferentes
+ * No supe donde poner subprogramas ya que todas las lineas tenian variables diferentes.
+ *
  */
